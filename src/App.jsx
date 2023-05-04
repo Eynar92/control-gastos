@@ -8,7 +8,10 @@ function App() {
 
   return (
     <div>
-      <Header />
+      <Header
+        presupuesto={presupuesto}
+        setPresupuesto={setPresupuesto}
+      />
     </div>
   )
 }
