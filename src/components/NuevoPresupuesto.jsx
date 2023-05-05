@@ -28,7 +28,7 @@ const NuevoPresupuesto = ({
 
       <form onSubmit={handlePresupuesto} className='formulario'>
         <div className="campo">
-          <label htmlFor="">Definir Presupuesto</label>
+          <label>Definir Presupuesto</label>
 
           <input
             className='nuevo-presupuesto'
